@@ -29,6 +29,7 @@ def tampilkan_data():
 def tambah_data():
 ```
 - Tujuan: Menambahkan data mahasiswa baru.
+- cara:
   - Meminta input nama, NIM, dan nilai (tugas, UTS, UAS).
   - Menyimpan data ke dalam data_mahasiswa dengan format:
       ```python
@@ -38,6 +39,7 @@ def tambah_data():
 def hapus_data():
 ```
 - Tujuan: Menghapus data mahasiswa berdasarkan nama.
+- cara:
   - Meminta nama mahasiswa.
   - Jika nama ditemukan dalam data_mahasiswa, hapus data.
   - Jika nama tidak ditemukan, tampilkan pesan kesalahan.
@@ -45,6 +47,7 @@ def hapus_data():
 def ubah_data():
 ```
 - Tujuan: Mengubah data mahasiswa berdasarkan nama.
+- cara:
   - Meminta nama mahasiswa.
   - Jika nama ditemukan, meminta data baru (NIM, tugas, UTS, UAS) untuk menggantikan data lama.
   - Jika nama tidak ditemukan, tampilkan pesan kesalahan.
@@ -55,6 +58,7 @@ while True:
     pilihan = input("Pilih menu: ").lower()
 ```
 - Tujuan: Mengelola navigasi antar fungsi.
+- cara:
   - l: Memanggil tampilkan_data.
   - t: Memanggil tambah_data.
   - h: Memanggil hapus_data.
